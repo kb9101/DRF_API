@@ -13,6 +13,6 @@ class MyCronJob(CronJobBase):
         subject = 'Happy Birthday'
         message = 'Happy Birthday'
         from_email = settings.EMAIL_HOST_USER
-        receipent_list = ['kush@bluehole.in']
+        receipent_list = ['sanjay@moweb.com']
         print('****************')
         send_mail(subject, message, from_email, receipent_list)
